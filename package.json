@@ -1,0 +1,26 @@
+{
+  "name": "snapvote",
+  "version": "0.0.0",
+  "description": "Snap Vote Web Application",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jzheaux/snapvote"
+  },
+  "author": "jzheaux",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jzheaux/snapvote"
+  },
+  "homepage": "https://github.com/jzheaux/snapvote",
+  "dependencies": {
+    "express": "^4.3.1",
+    "logfmt": "^1.1.2"
+  },
+  "engines": {
+	"node": "0.10.x"
+  }
+}
