@@ -1,0 +1,13 @@
+
+	<h1>{{question}}</h1>
+	<form method="post">
+		<ul data-question-id="{{id}}">
+		{{#answers}}
+			<li data-answer-id="{{id}}">
+				<input type="radio" name="answerId" value="{{id}}"> {{text}}
+			</li>
+		{{/answers}}
+		</ul>
+		<input type="submit" class="btn btn-primary" value="Cast Vote"/>
+	</form>
+
